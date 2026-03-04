@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCmptType2 xmlns="http://www.faktorzehn.org" changingOverTime="false" configurationForPolicyCmptType="true" policyCmptType="hausrat.HausratGrunddeckung" since="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.faktorzehn.org https://doc.faktorzehn.org/schema/faktor-ips/26.1/ProductCmptType2.xsd" xml:space="preserve">
+ <Label locale="de"/>
+ <Description locale="de"/>
+ <Category defaultForProductCmptTypeAttributes="true" name="Attributes" position="left">
+  <Label locale="de"/>
+  <Description locale="de"/>
+ </Category>
+ <Category defaultForFormulaSignatureDefinitions="true" defaultForTableStructureUsages="true" name="Tables and Formulas" position="left">
+  <Label locale="de"/>
+  <Description locale="de"/>
+ </Category>
+ <Category defaultForValidationRules="true" name="Validation Rules" position="left">
+  <Label locale="de"/>
+  <Description locale="de"/>
+ </Category>
+ <Category defaultForPolicyCmptTypeAttributes="true" name="Defaults and Value Sets" position="right">
+  <Label locale="de"/>
+  <Description locale="de"/>
+ </Category>
+</ProductCmptType2>

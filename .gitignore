@@ -1,16 +1,27 @@
-# Compiled class file
+# Build and Target directories
+target/
 *.class
 
-# Log file
+# Log files
 *.log
 
-# BlueJ files
-*.ctxt
+# OS metadata
+.DS_Store
+Thumbs.db
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# IDE configuration
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.recommenders/
 
-# Package Files #
+# Faktor-IPS generated and temporary files
+.ipsproject.bak
+bin/
+
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,6 +30,12 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# VM crash logs
 hs_err_pid*
 replay_pid*
+
+Hausratprodukte/target
+Hausratmodell/target
+
+Hausratprodukte/produktdaten
+Hausratprodukte/target/surefire-reports

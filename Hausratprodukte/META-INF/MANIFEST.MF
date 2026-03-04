@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Fips-BasePackage: org.faktorips.tutorial.produktdaten
+Fips-SourcecodeOutput: src/main/java
+Fips-ResourceOutput: src/main/resources
+Fips-ObjectDir: produktdaten;toc="faktorips-repository-toc.xml";validati
+ on-messages="message-validation"
+Fips-GeneratorConfig: org.faktorips.devtools.stdbuilder.ipsstdbuilderset
+ ;additionalAnnotations="org.faktorips.runtime.annotation.IpsGenerated";
+ additionalAnnotationsLocation="GeneratedAndRestrainedModifiable";builde
+ rClasses="All";camelCaseSeparated="true";changesInTimeNamingConvention=
+ "FIPS";formulaCompiling="XML";generateChangeListener="false";generateCo
+ nvenienceGetters="false";generateCopySupport="true";generateDeltaSuppor
+ t="true";generateGetEffectiveFromAsCalendar="true";generateJaxbSupport=
+ "None";generatePublishedInterfaces="false";generateVisitorSupport="true
+ ";generatorLocale="de";localDateDatatypeHelperVariant="java8";markNoneM
+ ergeableResourcesAsDerived="false";minimalJavadoc="false";persistencePr
+ ovider="Generic JPA 2.1";retainAnnotations="";serializablePolicyCmpts="
+ false";toXMLSupport="false";valueSetMethods="Unified"
+Fips-RuntimeIdPrefix: hausrat.
+

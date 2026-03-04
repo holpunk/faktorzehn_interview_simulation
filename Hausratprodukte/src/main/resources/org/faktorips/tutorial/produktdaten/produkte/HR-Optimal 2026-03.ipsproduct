@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCmpt xmlns="http://www.faktorzehn.org" implementationClass="org.faktorips.tutorial.model.hausrat.HausratProdukt" productCmptType="hausrat.HausratProdukt" runtimeId="hausrat.HR-Optimal 2026-03" validFrom="2026-03-03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.faktorzehn.org https://doc.faktorzehn.org/schema/faktor-ips/26.1/ProductCmpt.xsd" xml:space="preserve">
+ <validTo isNull="true"/>
+ <Description locale="de"/>
+ <Generation validFrom="2026-03-03"/>
+ <AttributeValue attribute="erlaubteZahlweisen">
+  <Value valueType="MultiValue">
+   <MultiValue>
+    <Value>1</Value>
+    <Value>2</Value>
+    <Value>4</Value>
+    <Value>12</Value>
+   </MultiValue>
+  </Value>
+ </AttributeValue>
+ <AttributeValue attribute="produktname">
+  <Value>Household Contents Optimal</Value>
+ </AttributeValue>
+ <AttributeValue attribute="vorgabeZahlweise">
+  <Value>12</Value>
+ </AttributeValue>
+ <AttributeValue attribute="vorschlagVersSummeProQm">
+  <Value isNull="true"/>
+ </AttributeValue>
+ <AttributeValue attribute="wertebereichVersSumme">
+  <Value valueType="MultiValue">
+   <MultiValue>
+    <Value>10000.00 EUR</Value>
+    <Value>5000000.00 EUR</Value>
+   </MultiValue>
+  </Value>
+ </AttributeValue>
+ <AttributeValue attribute="wertebereichWohnflaeche">
+  <Value>600</Value>
+ </AttributeValue>
+ <ConfiguredValueSet attribute="wohnflaeche">
+  <ValueSet>
+   <Range containsNull="false">
+    <LowerBound>0</LowerBound>
+    <UpperBound>2000</UpperBound>
+    <Step isNull="true"/>
+   </Range>
+  </ValueSet>
+ </ConfiguredValueSet>
+ <ConfiguredDefault attribute="wohnflaeche">0</ConfiguredDefault>
+ <ConfiguredValueSet attribute="zahlweise">
+  <ValueSet>
+   <Enum>
+    <Value>
+     <Data>1</Data>
+    </Value>
+    <Value>
+     <Data>2</Data>
+    </Value>
+    <Value>
+     <Data>4</Data>
+    </Value>
+    <Value>
+     <Data>12</Data>
+    </Value>
+   </Enum>
+  </ValueSet>
+ </ConfiguredValueSet>
+ <ConfiguredDefault attribute="zahlweise">1</ConfiguredDefault>
+ <Link association="HausratGrunddeckungstyp" defaultCardinality="1" maxCardinality="1" minCardinality="1" target="deckungen.HausratGrunddeckungstyp 2026-03" targetRuntimeId="hausrat.HausratGrunddeckungstyp 2026-03">
+  <Description locale="de"/>
+ </Link>
+</ProductCmpt>
